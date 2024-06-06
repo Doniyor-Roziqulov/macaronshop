@@ -1,0 +1,242 @@
+.shop {
+    padding-bottom: 40px;
+    background-color: var(--bg, #f7f7f7);
+}
+
+.shop__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    column-gap: 8px;
+    justify-content: space-between;
+    row-gap: 9px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.shop__title {
+    display: inline-block;
+    color: var(--292929, #292929);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.shop__text {
+    color: var(--292929, #292929);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.shop__bold {
+    color: #e7426a;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+}
+
+.shop__bold::after {
+    content: "";
+    width: 1px;
+    height: 36px;
+    background-color: #ededf0;
+    position: absolute;
+    right: -15px;
+    top: -7px;
+}
+
+.pokazat {
+    display: none;
+}
+
+.shop__item {
+    width: 140px;
+    padding: 9px 8px 0 8px;
+    border-radius: 5px;
+    border: 1px solid #ededf0;
+    background-color: #fff;
+}
+
+.shop__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    border-top: 1px solid #ededf0;
+}
+
+@media only screen and (min-width: 350px) {
+    .shop__list {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 468px) {
+    .shop__list {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .shop__item {
+        width: 160px;
+    }
+
+    .shop__img {
+        width: 144px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .shop__item {
+        width: 180px;
+    }
+
+    .shop__img {
+        width: 164px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .shop__item {
+        width: 200px;
+    }
+
+    .shop__img {
+        width: 184px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .shop__item {
+        width: 230px;
+    }
+
+    .shop__img {
+        width: 214px;
+    }
+
+    .shop__bold::after {
+        right: -90px;
+        top: -7px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .shop__item {
+        width: 260px;
+    }
+
+    .shop__img {
+        width: 244px;
+    }
+
+    .shop__bold::after {
+        right: -90px;
+        top: -7px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .shop__item {
+        width: 310px;
+    }
+
+    .shop__img {
+        width: 294px;
+    }
+
+    .shop__bold::after {
+        right: -90px;
+        top: -7px;
+    }
+
+    .shop__title {
+        font-size: 20px;
+    }
+
+    .shop__text {
+        font-size: 15px;
+    }
+
+    .shop__bold {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .shop__item {
+        width: 370px;
+        padding: 0;
+    }
+
+    .shop__img {
+        width: 370px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .shop__title {
+        margin-left: 21px;
+    }
+
+    .shop__text {
+        margin-left: 21px;
+    }
+
+    .shop__bold {
+        margin-left: 21px;
+        margin-right: 60px;
+    }
+
+    .link__svg {
+        margin-right: 21px;
+    }
+
+    .shop__box {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .shop__list {
+        row-gap: 35px;
+    }
+
+    .innershop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pokazat {
+        display: block;
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 3px;
+        border: 1px solid var(--4-e-9-dd-3, #4e9dd3);
+        padding: 17px 94px;
+        text-decoration-line: none;
+        margin-top: 41px;
+    }
+
+    .shop {
+      padding-bottom: 80px;
+    }
+}

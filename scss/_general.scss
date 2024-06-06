@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+
+.site-main {
+  flex-grow: 1;
+}
